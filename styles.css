@@ -1,9 +1,21 @@
 #Metronome{
-    background-color:red;
+    background: linear-gradient(#000000, #808080);
     padding:1em;
     margin:2em;
     border-radius: 2em;
     text-align: center;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: rgba(0,0,0,0.5) 10px, 10px, 10px;
+}
+#btnDecreaseBPM{
+    background-color: #c71e00;
+}
+#btnIncreaseBPM{
+    background-color: #c71e00;
+}
+#btnStartStopMetronome{
+    background-color: #c71e00;
 }
 input{
     border-radius: 1em;
@@ -11,6 +23,21 @@ input{
     margin: 0.2em;
     text-align: center;
 }
-#textBPM{
-
+#txtBPM{
+    font-size: 2em;
+    width: 50vw;
+    padding: 1em 0;
+}
+h1{
+    padding: 0;
+    text-align: center;
+    font-size: 5em
+}
+#logo{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
 }
